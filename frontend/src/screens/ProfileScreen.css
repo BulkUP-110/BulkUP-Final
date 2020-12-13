@@ -1,0 +1,11 @@
+h1 {
+  color: #094d52;
+  font-weight: bold;
+}
+
+.userProfile {
+  background-color: white;
+  margin: 2rem 55rem;
+  padding: 5rem 0;
+  border-radius: 2rem;
+}

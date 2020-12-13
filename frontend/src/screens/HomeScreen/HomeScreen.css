@@ -1,0 +1,14 @@
+/* Marketplace */
+.marketplace-bar {
+  background-color: #f0c040;
+  margin-top: 1rem;
+}
+.bar-title {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.featured-bar {
+  background-color: white;
+  margin-top: 1rem;
+}

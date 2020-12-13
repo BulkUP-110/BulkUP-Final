@@ -1,0 +1,36 @@
+
+/* frame */
+.staticcard {
+    border: 0.3rem #f8f8f8 solid;
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* inside text (name, address, etc) */
+.text {
+    padding: 0rem 1.5rem 1rem 1.5rem;
+}
+
+.text > * {
+    margin-bottom: 0.5rem;
+}
+
+/* for "discount..." highlight */
+.highlight {
+    color: #084d52;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: black;
+    margin-left: -1em;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+

@@ -1,0 +1,48 @@
+/* .restaurant-slider img {
+  width: 100%;
+  height: 700px;
+  color: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(255, 255, 255, 0) 48%,
+    rgba(2, 2, 2, 1) 100%
+  );
+} */
+
+.restaurant-slider h1 {
+  position: absolute;
+  bottom: 0;
+  left: 3rem;
+  color: white;
+  font-size: 50px;
+}
+.restaurant-slider h1:hover {
+  transform: scale(1.1);
+}
+.restaurant-slider {
+  background-image: url("./Restaurant.jpg");
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  transition: all 0.2s ease-in-out;
+  /* background-blend-mode: multiply; */
+}
+
+.screen:hover {
+  /* transform: scale(1); */
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
